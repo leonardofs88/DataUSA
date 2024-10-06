@@ -9,7 +9,7 @@ import Foundation
 import Combine
 @testable import DataUSA
 
-final class MockRepository: RepositoryProtocol {
+final class MockStateRepository: RepositoryProtocol {
     typealias T = StateData
     
     var networkService: any NetworkServiceProtocol

@@ -13,8 +13,16 @@
 		980D82562CB3263600276832 /* DataNation.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82512CB3244100276832 /* DataNation.json */; };
 		980D82572CB3263D00276832 /* DataState.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82522CB3244100276832 /* DataState.json */; };
 		980D82582CB3263D00276832 /* DataState.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82522CB3244100276832 /* DataState.json */; };
+		980D825B2CB32B8100276832 /* StateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D825A2CB32B7900276832 /* StateListView.swift */; };
+		980D825D2CB32C4700276832 /* NationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D825C2CB32C4100276832 /* NationRepository.swift */; };
+		980D825F2CB32CA300276832 /* NationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D825E2CB32C9F00276832 /* NationListView.swift */; };
+		980D82612CB32D3300276832 /* NationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D82602CB32D2F00276832 /* NationViewModel.swift */; };
+		980D82632CB3466A00276832 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D82622CB3465E00276832 /* DisplayView.swift */; };
+		980D82652CB34B6900276832 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D82642CB34B6900276832 /* EnvironmentValues.swift */; };
+		980D82672CB34B8900276832 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D82662CB34B8900276832 /* ErrorMessage.swift */; };
+		980D82692CB352BE00276832 /* MockNationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980D82682CB352B800276832 /* MockNationRepository.swift */; };
 		98459A642CB2FF0B004C3856 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A5D2CB2FF0B004C3856 /* MockNetworkService.swift */; };
-		98459A662CB2FF0B004C3856 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A5E2CB2FF0B004C3856 /* MockRepository.swift */; };
+		98459A662CB2FF0B004C3856 /* MockStateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A5E2CB2FF0B004C3856 /* MockStateRepository.swift */; };
 		98459A6F2CB3004F004C3856 /* NationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A6E2CB3002C004C3856 /* NationData.swift */; };
 		98459A712CB30147004C3856 /* Nation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A702CB30147004C3856 /* Nation.swift */; };
 		98459A762CB30318004C3856 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A752CB3030E004C3856 /* StateData.swift */; };
@@ -62,8 +70,16 @@
 /* Begin PBXFileReference section */
 		980D82512CB3244100276832 /* DataNation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataNation.json; sourceTree = "<group>"; };
 		980D82522CB3244100276832 /* DataState.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataState.json; sourceTree = "<group>"; };
+		980D825A2CB32B7900276832 /* StateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateListView.swift; sourceTree = "<group>"; };
+		980D825C2CB32C4100276832 /* NationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationRepository.swift; sourceTree = "<group>"; };
+		980D825E2CB32C9F00276832 /* NationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationListView.swift; sourceTree = "<group>"; };
+		980D82602CB32D2F00276832 /* NationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationViewModel.swift; sourceTree = "<group>"; };
+		980D82622CB3465E00276832 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		980D82642CB34B6900276832 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		980D82662CB34B8900276832 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		980D82682CB352B800276832 /* MockNationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNationRepository.swift; sourceTree = "<group>"; };
 		98459A5D2CB2FF0B004C3856 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
-		98459A5E2CB2FF0B004C3856 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
+		98459A5E2CB2FF0B004C3856 /* MockStateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStateRepository.swift; sourceTree = "<group>"; };
 		98459A6E2CB3002C004C3856 /* NationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationData.swift; sourceTree = "<group>"; };
 		98459A702CB30147004C3856 /* Nation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nation.swift; sourceTree = "<group>"; };
 		98459A752CB3030E004C3856 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
@@ -114,11 +130,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		980D82592CB32B7000276832 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				986779622CAF52FD00508F88 /* ContentView.swift */,
+				980D82622CB3465E00276832 /* DisplayView.swift */,
+				980D825E2CB32C9F00276832 /* NationListView.swift */,
+				980D825A2CB32B7900276832 /* StateListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		98459A5F2CB2FF0B004C3856 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				980D82682CB352B800276832 /* MockNationRepository.swift */,
 				98459A5D2CB2FF0B004C3856 /* MockNetworkService.swift */,
-				98459A5E2CB2FF0B004C3856 /* MockRepository.swift */,
+				98459A5E2CB2FF0B004C3856 /* MockStateRepository.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -146,6 +174,7 @@
 		98459A722CB30190004C3856 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				980D825C2CB32C4100276832 /* NationRepository.swift */,
 				98459A8D2CB30EA9004C3856 /* StateRepository.swift */,
 			);
 			path = Repositories;
@@ -163,6 +192,7 @@
 		98459A8A2CB30E53004C3856 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				980D82602CB32D2F00276832 /* NationViewModel.swift */,
 				98459A8B2CB30E5B004C3856 /* StateViewModel.swift */,
 			);
 			path = ViewModels;
@@ -171,6 +201,8 @@
 		98459A8F2CB310E3004C3856 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				980D82662CB34B8900276832 /* ErrorMessage.swift */,
+				980D82642CB34B6900276832 /* EnvironmentValues.swift */,
 				98459A942CB31B81004C3856 /* DependencyContainer.swift */,
 				98459A902CB310E9004C3856 /* EndPoint.swift */,
 			);
@@ -208,6 +240,7 @@
 		98F05FA32C85146100B8998B /* DataUSA */ = {
 			isa = PBXGroup;
 			children = (
+				980D82592CB32B7000276832 /* Components */,
 				98459A962CB31F12004C3856 /* Services */,
 				98459A922CB3113A004C3856 /* Info.plist */,
 				98459A8F2CB310E3004C3856 /* Common */,
@@ -216,7 +249,6 @@
 				98459A722CB30190004C3856 /* Repositories */,
 				98459A6B2CB30002004C3856 /* Models */,
 				98F05FA42C85146100B8998B /* DataUSAApp.swift */,
-				986779622CAF52FD00508F88 /* ContentView.swift */,
 				98F05FA82C85146300B8998B /* Assets.xcassets */,
 				98F05FAA2C85146300B8998B /* Preview Content */,
 			);
@@ -388,19 +420,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				98459A952CB31B89004C3856 /* DependencyContainer.swift in Sources */,
+				980D82672CB34B8900276832 /* ErrorMessage.swift in Sources */,
 				98459A8E2CB30EAE004C3856 /* StateRepository.swift in Sources */,
 				98459A7A2CB303F5004C3856 /* MeasureType.swift in Sources */,
 				98459A712CB30147004C3856 /* Nation.swift in Sources */,
 				98F05FA52C85146100B8998B /* DataUSAApp.swift in Sources */,
+				980D82652CB34B6900276832 /* EnvironmentValues.swift in Sources */,
 				98459A892CB30D16004C3856 /* RepositoryProtocol.swift in Sources */,
 				98459A832CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */,
 				98459A912CB310F3004C3856 /* EndPoint.swift in Sources */,
 				986779632CAF52FD00508F88 /* ContentView.swift in Sources */,
 				98459A6F2CB3004F004C3856 /* NationData.swift in Sources */,
+				980D825D2CB32C4700276832 /* NationRepository.swift in Sources */,
 				98459A982CB31F22004C3856 /* NetworkService.swift in Sources */,
 				98459A8C2CB30E63004C3856 /* StateViewModel.swift in Sources */,
 				98459A782CB303A1004C3856 /* StatePopulation.swift in Sources */,
+				980D825F2CB32CA300276832 /* NationListView.swift in Sources */,
+				980D825B2CB32B8100276832 /* StateListView.swift in Sources */,
+				980D82632CB3466A00276832 /* DisplayView.swift in Sources */,
 				98459A762CB30318004C3856 /* StateData.swift in Sources */,
+				980D82612CB32D3300276832 /* NationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +450,8 @@
 				98459A7B2CB30407004C3856 /* MeasureType.swift in Sources */,
 				98459A642CB2FF0B004C3856 /* MockNetworkService.swift in Sources */,
 				98459A842CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */,
-				98459A662CB2FF0B004C3856 /* MockRepository.swift in Sources */,
+				98459A662CB2FF0B004C3856 /* MockStateRepository.swift in Sources */,
+				980D82692CB352BE00276832 /* MockNationRepository.swift in Sources */,
 				98F05FB62C85146300B8998B /* DataUSATests.swift in Sources */,
 				98459A872CB30D16004C3856 /* RepositoryProtocol.swift in Sources */,
 			);
