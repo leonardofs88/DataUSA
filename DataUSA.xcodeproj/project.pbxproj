@@ -7,8 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980D82532CB3244100276832 /* DataState.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82522CB3244100276832 /* DataState.json */; };
+		980D82542CB3244100276832 /* DataNation.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82512CB3244100276832 /* DataNation.json */; };
+		980D82552CB3263600276832 /* DataNation.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82512CB3244100276832 /* DataNation.json */; };
+		980D82562CB3263600276832 /* DataNation.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82512CB3244100276832 /* DataNation.json */; };
+		980D82572CB3263D00276832 /* DataState.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82522CB3244100276832 /* DataState.json */; };
+		980D82582CB3263D00276832 /* DataState.json in Resources */ = {isa = PBXBuildFile; fileRef = 980D82522CB3244100276832 /* DataState.json */; };
+		98459A642CB2FF0B004C3856 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A5D2CB2FF0B004C3856 /* MockNetworkService.swift */; };
+		98459A662CB2FF0B004C3856 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A5E2CB2FF0B004C3856 /* MockRepository.swift */; };
+		98459A6F2CB3004F004C3856 /* NationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A6E2CB3002C004C3856 /* NationData.swift */; };
+		98459A712CB30147004C3856 /* Nation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A702CB30147004C3856 /* Nation.swift */; };
+		98459A762CB30318004C3856 /* StateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A752CB3030E004C3856 /* StateData.swift */; };
+		98459A782CB303A1004C3856 /* StatePopulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A772CB303A1004C3856 /* StatePopulation.swift */; };
+		98459A7A2CB303F5004C3856 /* MeasureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A792CB303F5004C3856 /* MeasureType.swift */; };
+		98459A7B2CB30407004C3856 /* MeasureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A792CB303F5004C3856 /* MeasureType.swift */; };
+		98459A7C2CB30407004C3856 /* MeasureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A792CB303F5004C3856 /* MeasureType.swift */; };
+		98459A832CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A822CB30B61004C3856 /* NetworkServiceProtocol.swift */; };
+		98459A842CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A822CB30B61004C3856 /* NetworkServiceProtocol.swift */; };
+		98459A852CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A822CB30B61004C3856 /* NetworkServiceProtocol.swift */; };
+		98459A872CB30D16004C3856 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A862CB30D16004C3856 /* RepositoryProtocol.swift */; };
+		98459A882CB30D16004C3856 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A862CB30D16004C3856 /* RepositoryProtocol.swift */; };
+		98459A892CB30D16004C3856 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A862CB30D16004C3856 /* RepositoryProtocol.swift */; };
+		98459A8C2CB30E63004C3856 /* StateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A8B2CB30E5B004C3856 /* StateViewModel.swift */; };
+		98459A8E2CB30EAE004C3856 /* StateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A8D2CB30EA9004C3856 /* StateRepository.swift */; };
+		98459A912CB310F3004C3856 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A902CB310E9004C3856 /* EndPoint.swift */; };
+		98459A952CB31B89004C3856 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A942CB31B81004C3856 /* DependencyContainer.swift */; };
+		98459A982CB31F22004C3856 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98459A972CB31F22004C3856 /* NetworkService.swift */; };
+		986779632CAF52FD00508F88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986779622CAF52FD00508F88 /* ContentView.swift */; };
 		98F05FA52C85146100B8998B /* DataUSAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F05FA42C85146100B8998B /* DataUSAApp.swift */; };
-		98F05FA72C85146100B8998B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F05FA62C85146100B8998B /* ContentView.swift */; };
 		98F05FA92C85146300B8998B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F05FA82C85146300B8998B /* Assets.xcassets */; };
 		98F05FAC2C85146300B8998B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F05FAB2C85146300B8998B /* Preview Assets.xcassets */; };
 		98F05FB62C85146300B8998B /* DataUSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F05FB52C85146300B8998B /* DataUSATests.swift */; };
@@ -34,9 +60,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		980D82512CB3244100276832 /* DataNation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataNation.json; sourceTree = "<group>"; };
+		980D82522CB3244100276832 /* DataState.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DataState.json; sourceTree = "<group>"; };
+		98459A5D2CB2FF0B004C3856 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		98459A5E2CB2FF0B004C3856 /* MockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
+		98459A6E2CB3002C004C3856 /* NationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationData.swift; sourceTree = "<group>"; };
+		98459A702CB30147004C3856 /* Nation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nation.swift; sourceTree = "<group>"; };
+		98459A752CB3030E004C3856 /* StateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateData.swift; sourceTree = "<group>"; };
+		98459A772CB303A1004C3856 /* StatePopulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePopulation.swift; sourceTree = "<group>"; };
+		98459A792CB303F5004C3856 /* MeasureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureType.swift; sourceTree = "<group>"; };
+		98459A822CB30B61004C3856 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		98459A862CB30D16004C3856 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		98459A8B2CB30E5B004C3856 /* StateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewModel.swift; sourceTree = "<group>"; };
+		98459A8D2CB30EA9004C3856 /* StateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRepository.swift; sourceTree = "<group>"; };
+		98459A902CB310E9004C3856 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		98459A922CB3113A004C3856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		98459A942CB31B81004C3856 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		98459A972CB31F22004C3856 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		986779622CAF52FD00508F88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98F05FA12C85146100B8998B /* DataUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F05FA42C85146100B8998B /* DataUSAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSAApp.swift; sourceTree = "<group>"; };
-		98F05FA62C85146100B8998B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98F05FA82C85146300B8998B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F05FAB2C85146300B8998B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98F05FB12C85146300B8998B /* DataUSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataUSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +114,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98459A5F2CB2FF0B004C3856 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				98459A5D2CB2FF0B004C3856 /* MockNetworkService.swift */,
+				98459A5E2CB2FF0B004C3856 /* MockRepository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		98459A622CB2FF0B004C3856 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				98459A5F2CB2FF0B004C3856 /* Network */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		98459A6B2CB30002004C3856 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98459A792CB303F5004C3856 /* MeasureType.swift */,
+				98459A772CB303A1004C3856 /* StatePopulation.swift */,
+				98459A752CB3030E004C3856 /* StateData.swift */,
+				98459A702CB30147004C3856 /* Nation.swift */,
+				98459A6E2CB3002C004C3856 /* NationData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98459A722CB30190004C3856 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				98459A8D2CB30EA9004C3856 /* StateRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		98459A7D2CB306DA004C3856 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				98459A862CB30D16004C3856 /* RepositoryProtocol.swift */,
+				98459A822CB30B61004C3856 /* NetworkServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		98459A8A2CB30E53004C3856 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				98459A8B2CB30E5B004C3856 /* StateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98459A8F2CB310E3004C3856 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				98459A942CB31B81004C3856 /* DependencyContainer.swift */,
+				98459A902CB310E9004C3856 /* EndPoint.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		98459A962CB31F12004C3856 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				98459A972CB31F22004C3856 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		98F05F982C85146100B8998B = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +208,15 @@
 		98F05FA32C85146100B8998B /* DataUSA */ = {
 			isa = PBXGroup;
 			children = (
+				98459A962CB31F12004C3856 /* Services */,
+				98459A922CB3113A004C3856 /* Info.plist */,
+				98459A8F2CB310E3004C3856 /* Common */,
+				98459A8A2CB30E53004C3856 /* ViewModels */,
+				98459A7D2CB306DA004C3856 /* Protocols */,
+				98459A722CB30190004C3856 /* Repositories */,
+				98459A6B2CB30002004C3856 /* Models */,
 				98F05FA42C85146100B8998B /* DataUSAApp.swift */,
-				98F05FA62C85146100B8998B /* ContentView.swift */,
+				986779622CAF52FD00508F88 /* ContentView.swift */,
 				98F05FA82C85146300B8998B /* Assets.xcassets */,
 				98F05FAA2C85146300B8998B /* Preview Content */,
 			);
@@ -113,7 +234,10 @@
 		98F05FB42C85146300B8998B /* DataUSATests */ = {
 			isa = PBXGroup;
 			children = (
+				980D82512CB3244100276832 /* DataNation.json */,
+				980D82522CB3244100276832 /* DataState.json */,
 				98F05FB52C85146300B8998B /* DataUSATests.swift */,
+				98459A622CB2FF0B004C3856 /* Mocks */,
 			);
 			path = DataUSATests;
 			sourceTree = "<group>";
@@ -231,6 +355,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980D82552CB3263600276832 /* DataNation.json in Resources */,
+				980D82572CB3263D00276832 /* DataState.json in Resources */,
 				98F05FAC2C85146300B8998B /* Preview Assets.xcassets in Resources */,
 				98F05FA92C85146300B8998B /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +366,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980D82532CB3244100276832 /* DataState.json in Resources */,
+				980D82542CB3244100276832 /* DataNation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +375,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980D82562CB3263600276832 /* DataNation.json in Resources */,
+				980D82582CB3263D00276832 /* DataState.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +387,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F05FA72C85146100B8998B /* ContentView.swift in Sources */,
+				98459A952CB31B89004C3856 /* DependencyContainer.swift in Sources */,
+				98459A8E2CB30EAE004C3856 /* StateRepository.swift in Sources */,
+				98459A7A2CB303F5004C3856 /* MeasureType.swift in Sources */,
+				98459A712CB30147004C3856 /* Nation.swift in Sources */,
 				98F05FA52C85146100B8998B /* DataUSAApp.swift in Sources */,
+				98459A892CB30D16004C3856 /* RepositoryProtocol.swift in Sources */,
+				98459A832CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */,
+				98459A912CB310F3004C3856 /* EndPoint.swift in Sources */,
+				986779632CAF52FD00508F88 /* ContentView.swift in Sources */,
+				98459A6F2CB3004F004C3856 /* NationData.swift in Sources */,
+				98459A982CB31F22004C3856 /* NetworkService.swift in Sources */,
+				98459A8C2CB30E63004C3856 /* StateViewModel.swift in Sources */,
+				98459A782CB303A1004C3856 /* StatePopulation.swift in Sources */,
+				98459A762CB30318004C3856 /* StateData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +408,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98459A7B2CB30407004C3856 /* MeasureType.swift in Sources */,
+				98459A642CB2FF0B004C3856 /* MockNetworkService.swift in Sources */,
+				98459A842CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */,
+				98459A662CB2FF0B004C3856 /* MockRepository.swift in Sources */,
 				98F05FB62C85146300B8998B /* DataUSATests.swift in Sources */,
+				98459A872CB30D16004C3856 /* RepositoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +422,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F05FC22C85146300B8998B /* DataUSAUITestsLaunchTests.swift in Sources */,
+				98459A7C2CB30407004C3856 /* MeasureType.swift in Sources */,
 				98F05FC02C85146300B8998B /* DataUSAUITests.swift in Sources */,
+				98459A852CB30B61004C3856 /* NetworkServiceProtocol.swift in Sources */,
+				98459A882CB30D16004C3856 /* RepositoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +575,7 @@
 				DEVELOPMENT_TEAM = HXGGE8M769;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataUSA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +605,7 @@
 				DEVELOPMENT_TEAM = HXGGE8M769;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataUSA/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

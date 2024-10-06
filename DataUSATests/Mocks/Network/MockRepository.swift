@@ -6,9 +6,29 @@
 //
 
 import Foundation
+import Combine
+@testable import DataUSA
 
-struct MockRepository: RepositoryProtocol {
-    func getPopulationByStateURL(for type: MeasureType) -> URL? {
-        Bundle.main.url(forResource: "Data", withExtension: "json")
+final class MockRepository: RepositoryProtocol {
+    typealias T = StateData
+    
+    var networkService: any NetworkServiceProtocol
+    
+    init(networkService: NetworkServiceProtocol) {
+        self.networkService = networkService
+    }
+    
+    func getPopulation() throws -> AnyPublisher<T, any Error>{
+        
+        guard let url = Bundle.main.url(forResource: "DataState", withExtension: "json") else {
+            throw URLError.init(.badURL)
+        }
+        
+        return networkService.request(url)
+            .receive(on: DispatchQueue.main)
+            .eraseToAnyPublisher()
     }
 }
+
+
+

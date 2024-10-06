@@ -2,7 +2,14 @@
 //  RepositoryProtocol.swift
 //  DataUSA
 //
-//  Created by Leonardo Soares on 03/09/24.
+//  Created by Leonardo Soares on 06/10/24.
 //
 
-import Foundation
+import Combine
+
+protocol RepositoryProtocol {
+    associatedtype T: Codable
+    var networkService: NetworkServiceProtocol { get }
+    init(networkService: NetworkServiceProtocol)
+    func getPopulation() throws -> AnyPublisher<T, Error>
+}
